@@ -18,10 +18,10 @@ for breed in all_breeds:
 # Get a list of all subbreeds of a breed with at least 3 subbreeds
 # But NOT bulldogs
 # Examples include: poodles, retrievers, terriers, mastiffs, spaniels, setters, & more
-# all_other_subbreeds = breeds["bulldog"]
-# input("\nPress enter to get all bulldog subbreeds")
-# for sub in all_other_subbreeds:
-#   print(sub)
+terrier_subbreeds = breeds["terrier"]
+input("\nPress enter to get all terrier subbreeds")
+for sub in terrier_subbreeds:
+  print(sub)
 
 # Display all bulldog subbreeds
 bulldog_subbreeds = breeds["bulldog"]
